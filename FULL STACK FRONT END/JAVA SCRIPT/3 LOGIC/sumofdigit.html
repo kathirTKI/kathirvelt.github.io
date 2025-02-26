@@ -1,0 +1,12 @@
+your value is ::<h1 id="n1"></h1>
+<script>
+    var sum = 0;
+    n = parseInt(prompt("enter the n value is::"))
+    while (n != 0) {
+
+        remainder = n % 10;
+        sum = sum + remainder;
+        n = Math.floor(n / 10);
+    }
+    document.getElementById("n1").innerHTML=sum;
+</script>

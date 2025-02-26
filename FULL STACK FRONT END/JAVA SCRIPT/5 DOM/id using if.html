@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(16, 59, 100);
+            color: rgb(224, 239, 229);
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>   
+    <div id="k1"></div>
+</body>
+<script>
+    var time = parseInt(prompt("Office entry time::"))
+    if (time >=9 && time<=9.30) {
+        document.getElementById("k1").innerHTML="your allowed to office";
+    }
+    else{
+        document.getElementById("k1").innerHTML="your not allowed to office";
+
+    }
+</script>
+</html>
