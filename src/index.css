@@ -1,0 +1,22 @@
+/*h1{
+    background-color: aqua;;
+}
+.f1{
+    font-family: 'Courier New', Courier, monospace;
+}
+#f2{
+    font-style: italic;
+}    */
+div{
+    background-color: aquamarine;
+}
+.kathir1{
+    border-radius: 110px;
+    color: rgb(250, 250, 250);
+    background-color: orange;
+    cursor: pointer;
+}
+.kathir1:hover{
+    color: orange;
+    background-color: white;
+}
